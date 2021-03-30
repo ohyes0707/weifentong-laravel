@@ -1,0 +1,400 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+img{
+	display: block;
+}
+input{
+	outline: none;
+	border: none;
+	color: #333;
+	font-family: "microsoft yahei";
+}
+html,body{
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	color: #333;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+}
+.font_24{
+	font-size: 24px;
+}
+.font_20{
+	font-size: 20px;
+}
+.clearfix:after{
+	display: block;
+	height: 0;
+	clear: both;
+	content: '';
+}
+
+
+/*导航*/
+.nav{
+	height: 50px;
+	padding: 20px 100px 20px;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+}
+.header{
+	display: flex;
+	display: -webkit-flex;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+}
+.logo img{
+	width: 146px;
+	height: 50px;
+}
+.line{
+	width: 1px;
+	height: 50px;
+	background: url(../img/line.png) no-repeat center;
+	background-size: 100% 100%;
+	margin: 0 20px;
+}
+.navigator{
+	display: flex;
+	display: -webkit-flex;
+	font-size: 20px;
+}
+.navigator li{
+	margin: 0 45px;
+}
+.bottom_line{
+	width: 30px;
+	height: 4px;
+	background: #f5772b;
+	border-radius: 2px;
+	margin: 8px auto 0;
+	display: none;
+}
+.navigator li.active a{
+	color: #F5772B;
+}
+.navigator li.active .bottom_line{
+	display: block;
+}
+.login{
+	width: 96px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border: 2px solid #F5772B;
+	border-radius: 18px;
+	font-size: 20px;
+}
+.login a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #F5772B;
+}
+
+/*轮播*/
+.swiper-container{
+	width: 100%;
+	height: 80%;
+}
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 100px;
+    margin-top: -50px;
+    z-index: 10;
+    cursor: pointer;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: url(../img/arrow_left.png);
+    left: 50px;
+    right: auto;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    background-image: url(../img/arrow_right.png);
+    right: 50px;
+    left: auto;
+}
+
+
+.footer{
+	padding: 10px 0;
+	color: #666;
+	text-align: center;
+	line-height: 26px;
+}
+
+
+/*关于我们*/
+.about_container{
+	width: 62.5%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.about_img{
+	width: 62.5%;
+	height: 37%;
+	margin: 20px auto 58px;
+}
+.about_img img{
+	width: 100%;
+	height: 100%;
+}
+.title{
+	font-size: 30px;
+	font-weight: normal;
+}
+.paragraph{
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 20px;
+}
+
+
+/*联系我们*/
+.contact_container{
+	width: 100%;
+	height: 80%;
+	background: url(../img/contact_bg.png) no-repeat center;
+	background-size: 100% 100%;
+	color: #fff;
+}
+.contact_container .content{
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.contact_top{
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	padding-top: 15%;
+}
+.contact_text{
+	text-align: right;
+	font-size: 100px;
+}
+
+.english{
+	color: #F5772B;
+	font-family: "SourceHanSansCN-light";
+	margin-top: 40px;
+}
+.link_title{
+	font-size: 20px;
+}
+.link_number{
+	font-size: 40px;
+	font-family: "SourceHanSansCN-Regular";
+}
+.icon_phone,.icon_qq{
+	display: inline-block;
+	margin-left: 12px;
+	width: 32px;
+	height: 32px;
+	
+}
+.icon_phone{
+	background: url(../img/icon-phone.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.icon_qq{
+	background: url(../img/icon_qq.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.link_qq{
+	margin-top: 20px;
+}
+.address{
+	position: absolute;
+	left: 0;
+	bottom: 78px;
+	font-size: 20px;
+	line-height: 36px;
+}
+
+/*登录*/
+.login_container{
+	/*width: 23%;
+	min-width: 350px;*/
+	width: 440px;
+	/*height: 62%;*/
+	/*min-height: 520px;*/
+	position: fixed;
+	right: 18.75%;
+	top: 15%;
+	z-index: 999;
+	background: rgb(250,250,250);
+	font-size: 20px;
+	display: none;
+}
+.login_main{
+	padding-top: 15%;
+	padding-bottom: 9.7%;
+	width: 320px;
+	margin: 0 auto;
+}
+.login_main li{
+	margin-top: 30px;
+}
+.form_label{
+	display: block;
+	color: #999;
+}
+.input_text{
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	padding: 12px 0;	
+	border-bottom: 1px solid #999;
+}
+.code_input{
+	width: 180px;
+	float: left;
+}
+.security_code{
+	width: 120px;
+	height: 50px;
+	float: right;
+}
+.login_btn{
+	width: 280px;
+	height: 70px;
+	border-radius: 35px;
+	background: #F5772B;
+	color: #fff;
+	font-size: 34px;
+	letter-spacing: 5px;
+	box-shadow: 0 0 40px #F5772B;
+	margin-top: 13%;
+}
+
+.tip{
+	font-size: 14px;
+	color: #F00;
+	display: none;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .nav{
+    	padding: 20px 60px;
+    }
+    .navigator li{
+    	margin: 0 20px;
+    }
+    .contact_text{
+    	font-size: 60px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	.nav{
+    	padding: 20px 60px;
+    }
+    .navigator li{
+    	margin: 0 20px;
+    }
+    .contact_top{
+		padding-top: 15%;
+	}
+    .contact_text{
+    	font-size: 60px;
+    }
+    .link_title{
+		font-size: 14px;
+	}
+	.link_number{
+		font-size: 28px;
+	}  
+}
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+	.nav{
+    	padding: 20px 80px;
+    }
+    .navigator li{
+    	margin: 0 30px;
+    }
+    .contact_top{
+		padding-top: 15%;
+	}
+    .contact_text{
+    	font-size: 60px;
+    }
+    .link_title{
+		font-size: 16px;
+	}
+	.link_number{
+		font-size: 34px;
+	} 
+	.login_container{
+		width: 400px;
+	} 
+	.login_main{
+		width: 320px;
+	} 
+	 
+}
+
+
+
+@media screen and (min-width:1200px){
+	.nav{
+    	padding: 20px 100px;
+    }
+    .navigator li{
+    	margin: 0 45px;
+    }
+    
+	.contact_top{
+		padding-top: 8%;
+	}
+	.english{
+		margin-top: 0;
+	}
+    .contact_text{
+    	font-size: 90px;
+    }
+    .link_title{
+		font-size: 20px;
+	}
+	.link_number{
+		font-size: 40px;
+	}
+	.login_container{
+		width: 440px;
+	}
+	.login_main{
+		width: 320px;
+	}
+	.input_text{
+		margin-top: 15px;
+	}
+}

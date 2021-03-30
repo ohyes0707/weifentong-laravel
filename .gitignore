@@ -1,0 +1,15 @@
+/node_modules
+/public/hot
+/public/storage
+/config/config.php
+/storage/*.key
+/.idea
+/.vagrant
+/nbproject
+/vendor
+/storage
+Homestead.json
+Homestead.yaml
+npm-debug.log
+.env
+

@@ -1,0 +1,474 @@
+.form-control[readonly]{
+	cursor: auto;
+}
+.yellow{
+	color: #F0AD4E;
+}
+.green{
+	color: #5CB85C;
+}
+.red{
+	color: #D9534F;
+}
+label{
+	font-weight: normal;
+}
+table th, table td {
+    padding: 8px 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.checkform{
+	font-size: 16px;
+    color: #333;
+    margin: 35px 0 20px;
+    min-height: 34px; 
+    line-height: 34px;
+}
+
+.checkform .form-group{
+	margin-right: 18px;
+}
+
+.checkform .form-control {
+    width: 100px;
+    height: 26px;
+    padding: 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.checkform .date {
+    width: 120px;
+    padding-right: 25px;
+    background: url(../img/calendars.png) no-repeat right 1px center;
+    background-size: auto 22px;
+}
+
+.checkform .find {
+    width: 54px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.checkform .reset {
+    width: 54px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.checkform .excel {
+    width: 90px;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.checktable {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+    border-radius: 4px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.checktable th{
+	text-align: center;
+	background: #fefefe;
+}
+.checktable td{
+	background: #fff;
+}
+
+.init-table tr>td:nth-child(1) {
+    text-align: left;
+}
+.f_channel>td:nth-child(1) {
+    padding-left: 40px;
+}
+.off_channel>td:nth-child(1) {
+    background: url(../img/icon-close2.png) no-repeat 10px center;
+}
+.on_channel>td:nth-child(1) {
+    background: url(../img/icon-open2.png) no-repeat 10px center;
+}
+.sub_channel>td:nth-child(1) {
+    padding-left: 68px;
+    background: url(../img/icon-open3.png) no-repeat 40px center;
+}
+.sub_channel{
+	display: none;
+}
+
+
+/*结算管理*/
+dl{
+	margin-bottom: 0;
+}
+dt{
+	font-weight: normal;
+}
+.balance{
+	margin-top: 28px;
+	color: #333;
+}
+.balance dt{
+	font-size: 14px;
+}
+.balance dd{
+	font-size: 20px;
+	margin-top: 18px;
+}
+.bal-left,.bal-right{
+	float: left;
+}
+.bal-left{
+	width: 275px;
+	border-right: 1px solid #ccc;
+}
+.bal-right{
+	margin-left: 126px;
+}
+.balance .remain{
+	font-size: 40px;
+	color: #F5772B;
+	margin: 34px 0 32px 0;
+}
+.withdraw a{
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	width: 74px;
+	height: 34px;
+	border-radius: 4px;
+	background: #3EA9F5;
+	text-align: center;
+	line-height: 34px;
+	margin-right: 10px;
+}
+.withdraw span{
+	font-size: 14px;
+}
+.withdrawing{
+	margin-top: 44px;
+}
+
+.head{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0 10px 0;
+}
+.look,.look a{
+	color: #333;
+}
+
+
+/*提现详情*/
+.header {
+    font-size: 18px;
+    padding: 35px 0 10px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+.detailLists{
+	width: 410px;
+	margin: 80px auto 0;
+	font-size: 16px;
+}
+.detailLists li{
+	min-height: 34px;
+	margin-bottom: 20px;
+}
+.detailLists li span{
+	float: left;
+	width: 90px;
+}
+.detailLists li em{
+	float: left;
+	width: 320px;
+}
+
+.goback{
+	width: 74px;
+	height: 34px;
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #999;
+	border-radius: 4px;
+}
+.detailLists .goback{
+	margin-top: 40px;
+}
+
+/*提现*/
+.form-list{
+	min-height: 34px;
+	line-height: 34px;
+	margin-bottom: 20px;
+}
+.form-list label{
+	float: left;
+	width: 100px;
+}
+.form-list input{
+	float: left;
+}
+.cash-form{
+	width: 400px;
+	margin: 80px auto 0;
+	font-size: 16px;
+	color: #333;
+}
+
+.label-radio{
+	position: relative;
+	padding-left: 30px;
+	background: url(../img/icon19.png) no-repeat left center;
+}
+.onradio{
+	background: url(../img/icon20.png) no-repeat left center;
+}
+.label-radio input{
+	position: absolute;
+	left: -99999px;
+}
+.form-input{
+	width: 300px;
+	height: 34px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0 10px;
+}
+.form-input[name=amount]{
+	width: 130px;
+	height: 34px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0 10px;
+	margin-right: 10px;
+}
+
+.withdrawTip{
+	padding-left: 38px;
+	background: url(../img/icon22.png) no-repeat left center;
+	white-space: nowrap;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 40px;
+	color: #D9534F;
+}
+.submit{
+	width: 74px;
+	height: 34px;
+	background: #3EA9F5;
+	border-radius: 4px;
+	color: #fff;
+	border: none;
+}
+.blue-btn{
+	width: 74px;
+	height: 34px;
+	background: #3EA9F5;
+	border-radius: 4px;
+	color: #fff;
+	border: none;
+}
+.red-btn{
+	width: 74px;
+	height: 34px;
+	background: #D9534F;
+	border-radius: 4px;
+	color: #fff;
+	border: none;
+}
+.btns{
+	text-align: center;
+}
+.btns input{
+	margin: 40px 20px 0;
+}
+.btns button{
+	margin: 40px 20px 0;
+}
+
+.usable{
+	font-size: 18px;
+	color: #333;
+}
+.usable span{
+	color: #F5772B;
+}
+.usable em{
+	font-size: 14px;
+	color: #999;
+}
+
+/*任务中心*/
+.task-head{
+	padding: 35px 0 28px 0;
+}
+.refuse-btn{
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 3px;
+	color: #fff;
+	background: #D9534F;
+	border: none;
+}
+
+/*弹窗*/
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.25);
+    z-index: 9999;
+}
+.alertbox {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+    background: #fff;
+    width: 600px;
+    margin-left: -300px;
+    margin-top: -130px;
+    min-height: 260px;
+    border-radius: 10px;
+}
+.myalert .close {
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.alertHead {
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+}
+.alertMain {
+    font-size: 20px;
+    color: #323232;
+    line-height: 35px;
+    padding-top: 40px;
+}
+.myalert button{
+	font-size: 20px;
+	margin: 60px 20px 0;
+}
+.myalert .blue-btn{
+	font-size: 20px;
+}
+
+#f-history{
+	margin-top: 0;
+}
+
+
+/*子商户*/
+.addshop{
+	position: absolute;
+	right: 40px;
+	top: 90px;
+}
+.addshop a{
+	float: right;
+	width: 174px;
+	text-align: center;
+	height: 34px;
+	line-height: 34px;
+	font-size: 16px;
+	background: #3ea9f5;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.edit,.report,.hisfans,.audit{
+	display: inline-block;
+	height: 19px;
+	line-height: 19px;
+	background: #3EA9F5;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0 2px;
+	margin: 2px;
+	cursor: pointer;
+}
+a.edit:hover,a.report:hover,a.hisfans:hover,.audit:hover{
+	color: #fff;
+}
+
+.f-addshop{
+	width: 400px;
+	margin: 20px auto 0;
+}
+.form-list .checklabel{
+	width: 300px;
+	padding-top: 1px;
+}
+.checklabel input{
+	padding-top: 3px;
+	margin: 10px 10px 0 0;
+}
+
+.auditBtns button{
+	margin-right: 40px;
+}
+
+/*驳回弹窗*/
+.causeMain {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+    background: #fff;
+    width: 600px;
+    margin-left: -300px;
+    margin-top: -130px;
+    height: 260px;
+    border-radius: 10px;
+}
+.causeMain p {
+    font-size: 24px;
+    line-height: 58px;
+    text-align: center;
+}
+.causeMain textarea {
+    width: 516px;
+    height: 106px;
+    resize: none;
+    margin: 0 42px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+.causebtn {
+    text-align: center;
+}
+.causebtn input{
+	margin: 15px 20px 0;
+	font-size: 16px;
+}
+.causeTip {
+    padding-left: 42px;
+    color: #d9534f;
+    font-size: 16px;
+}
+
